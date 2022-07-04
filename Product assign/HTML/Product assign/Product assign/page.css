@@ -1,0 +1,12 @@
+.product {
+      background-color: antiquewhite;
+      width: 25%;
+      min-height: 345px;
+      margin: 1.6%;
+}
+.product h2{
+      color: sienna;
+}
+.p{
+      color: aqua;
+}

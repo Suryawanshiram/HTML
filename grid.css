@@ -1,0 +1,33 @@
+body{
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      text-align: center;
+      color: black;
+}
+
+#content{
+      max-width: 960px;
+      margin: 0 auto;
+      display: grid;
+      /* grid-template-columns: 50% 25% 25%; */
+      grid-template-columns: 3fr 3fr 3fr;
+      grid-column-gap: 5px;
+      grid-template-rows: 300px;
+      grid-row-gap: 5px;
+      grid-auto-rows: 300px;
+      grid-template-rows: 250px;
+}
+#content div{
+      background-color: orange;
+      padding: 30px;
+}
+#content div:nth-child(odd){
+      background-color: wheat;
+
+}
+
+
+
+
+
+
+

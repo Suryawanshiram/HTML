@@ -1,0 +1,14 @@
+.product{
+      width: 25%;
+      height: 340px;
+      margin: 1.6% 1.6%;
+      background-color: tan;
+      float: left;
+}
+.product h2{
+      color: rgb(63, 28, 12);
+}
+.product h2, .product p{
+      margin: 10px 0px;
+      text-align: center;
+}

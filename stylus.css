@@ -1,0 +1,57 @@
+.product{
+      width: 25%;
+      height: 340px;
+      margin: 1.6% 1.6%;
+      background-color: aquamarine;
+      float: left;
+}
+.product h2{
+      color: sienna;
+}
+.product p{
+      color: rgb(63, 28, 12);
+}
+.product h2, product p{
+      margin: 10px 0px;
+      text-align: center;
+}
+.featuredproduct{
+   background-color: rgb(215, 142, 52);
+}
+.productcontaineer::after{
+      content: "";
+      clear: left;
+      display: ruby-base;
+   }
+
+   .featuredproduct{
+      background-color: bisque;
+      padding: 1.5%;
+   }
+
+   section,aside{
+      float: left;
+      width: 45%;
+      padding: 1%;
+   }
+   .featuredproduct::after{
+      content: ;
+      clear: left;
+      display: block;
+   }
+
+   .specialoffer{
+      padding: 2%;
+      margin-top: 1%;
+      column-count: 2;
+      background-color: bisque;
+      position: relative;
+      left: 40px;
+      column-count: 2;
+   }
+
+   #banner{
+      max-height: 300px;
+      overflow: hidden;
+   }
+
