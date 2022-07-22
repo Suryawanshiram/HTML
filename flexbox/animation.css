@@ -1,0 +1,100 @@
+html,body{
+      height: 100%;
+      width: 100%;
+      overflow: hidden;
+      margin: 0;
+}
+
+.sky, .grass, .road{
+      position: relative;
+}
+
+.sky{
+      background-color: skyblue;
+      height: 55%;
+}
+
+.box{
+      position: absolute;
+      top: 20%;
+      left: 60%;
+      width: 30%;
+      height: 30%;
+      background: darkblue;
+      color: aliceblue;
+
+}
+
+.box:hover{
+      background: red;
+      transform: rotateZ(45deg);
+      /* /transition: 2s; */
+      /*transition: background 2s, transform 1s, 1s, linear;*/
+}
+
+.cloud{
+      height: 40%;
+      position: absolute;
+      top: 20%;
+      left: 20%;
+      opacity: 100%;
+}
+
+.grass{
+      height: 15%;
+      width: 100%;
+      background: green;
+}
+
+.road{
+      height: 30%;
+      width: 100%;
+      background: dimgray;
+      box-sizing: border-box;
+      border-top: 10px solid grey;
+      border-bottom: 10px solid grey;
+
+}
+
+.divider{
+      width: 100%;
+      box-sizing: border-box;
+      border: 4px dashed #ffffff;
+      position: absolute;
+      top: 50%;
+      right: 50%;
+}
+
+.audi{
+      height: 70%;
+      position: absolute;
+      top: -35%;
+      animation-name: driveaudi;
+      animation-duration: 5s;
+      animation-iteration-count: 3;
+      animation-direction: normal;
+      animation-timing-function: ease-in-out;
+}
+
+.maru{
+      height: 70%;
+      position: absolute;
+      top: 33%;
+      animation-name: drivemaru;
+      animation-duration: 5s;
+      animation-iteration-count: 3;
+      animation-direction: alternate-reverse;
+      animation-timing-function: ease-in;
+
+
+}
+
+@keyframes driveaudi{
+      from{transform: translateX(0px);}
+      to{transform: translateX(1200px);}
+}
+
+@keyframes drivemaru{
+      from{transform: translateX(0px);}
+      to{transform: translateX(1200px);}
+}

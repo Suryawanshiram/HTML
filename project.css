@@ -53,3 +53,19 @@ main img{
 main .big{
       grid-row: span 2;
 }
+
+@media screen and (max-width: 620px){
+      main{
+            grid-template-columns: 1fr;
+            max-width: 400px;
+            margin-top: 20px;
+      }
+      nav{
+            grid-template-columns: repeat(4,1fr);
+      }
+      nav h1{
+            grid-column: 1;
+            grid-row: 1;
+
+      }
+}
